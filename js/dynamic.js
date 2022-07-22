@@ -81,8 +81,7 @@ const projects = [
   },
   {
     name: ["SketchNchat", "", "Full Stack Dev", "2022"],
-    description:
-      " This webapp is used to draw free hand illustrations as well as chat with friends in real time in private discussion rooms.<br><br>- It provides users with a platform to express their thoughts in a pictorial form as well as chat to resolve any ambiguity.<br>- It allows users to create illustrations with variable size and with various different colours . <br>- It is equipped with the concept of rooms , therefore allows users to simulate private discussion rooms.",
+    description: `This webapp is used to draw free hand illustrations as well as chat with friends in real time in private discussion rooms.<br><br>- It provides users with a platform to express their thoughts in a pictorial form as well as chat to resolve any ambiguity.<br>- It allows users to create illustrations with variable size and with various different colours . <br>- It is equipped with the concept of rooms , therefore allows users to simulate private discussion rooms.`,
     featured_image: ["images/sketchNchat1.jpg", "images/sketchNchat1.jpg"],
     technologie: ["html", "css", "javscript", "Express", "Nodejs", "socket.io"],
     link: [
@@ -166,7 +165,7 @@ function WindowPopup(project) {
   popupCont.appendChild(popupBody);
 
   const text = document.createElement("p"); //variable
-  text.textContent = project.description;
+  text.innerHTML = project.description;
   text.classList.add("text");
   popupBody.appendChild(text);
 

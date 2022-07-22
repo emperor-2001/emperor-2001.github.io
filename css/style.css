@@ -662,14 +662,13 @@ input {
   line-height: 20px;
   color: #172b4d;
 }
-
 textarea {
   width: 90%;
   margin: 10px 0;
   border: none;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 18px !important;
   line-height: 20px;
   color: #172b4d;
 }
@@ -689,4 +688,19 @@ textarea {
   font-size: 16px;
   line-height: 12px;
   margin: 5px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.flex-gap-1 {
+  display: flex;
+  width: 100;
+  gap: 1rem;
+  justify-content: space-around;
 }
