@@ -85,7 +85,7 @@ const projects = [
     featured_image: ["images/sketchNchat1.jpg", "images/sketchNchat1.jpg"],
     technologie: ["html", "css", "javscript", "Express", "Nodejs", "socket.io"],
     link: [
-      "https://sketch-n-chat.herokuapp.com/",
+      "https://sketch-n-chat.onrender.com/",
       "https://github.com/emperor-2001/SketchNChat",
     ],
   },
